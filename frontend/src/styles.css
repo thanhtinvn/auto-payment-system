@@ -1,0 +1,5 @@
+/* You can add global styles to this file, and also import other style files */
+@import './custom_styles/bootstrap.min.css';
+@import './custom_styles/mat.css';
+@import './custom_styles/paper-kit.css';
+@import './custom_styles/utils.css';
