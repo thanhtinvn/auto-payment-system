@@ -1,0 +1,37 @@
+/* overwrite mat-grid-list */
+.mat-grid-list .mat-grid-tile.text-left .mat-figure {justify-content: flex-start !important}
+.mat-grid-list .mat-grid-tile.text-right .mat-figure {justify-content: flex-end !important}
+
+/* overwrite paginator */
+.mat-paginator {background: transparent}
+.mat-paginator .mat-paginator-range-label{font-size: 14px; margin: 0 5px; padding-top: 2px;}
+
+/* overwrite snackbar css */
+snack-bar-container.success-snackbar{
+    background: #eff7ed !important;
+    color: #2e7132 !important;
+}
+snack-bar-container.warning-snackbar{
+    background: #ffb300!important;
+    color: white !important;
+}
+snack-bar-container.danger-snackbar{
+    background: #f44336 !important;
+    color: #fefafa !important;
+}
+/* dialog container */
+mat-dialog-container.mat-dialog-container {
+    background: #fafafa;
+}
+mat-tooltip-component .mat-tooltip {
+    margin-bottom: 0px !important;
+}
+.mat-badge-content{
+    top: 1px !important;
+    right: 1px !important;
+    background: #ffd740 !important;
+    color: black;
+}
+
+.mat-spinner.custom-spinner {display: inline-flex; margin: 0 auto}
+.mat-spinner.custom-spinner.white circle {stroke: white}
