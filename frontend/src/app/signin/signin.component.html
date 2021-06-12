@@ -14,7 +14,8 @@
                                       <i class="nc-icon nc-email-85"></i>
                                   </span>
                                 </div>
-                                  <input type="text" class="form-control" placeholder="Email" >
+                                  <input type="text" class="form-control" (ngModel)="email"
+                                  placeholder="Email" >
                               </div>
 
                               <label>Password</label>
@@ -24,9 +25,12 @@
                                       <i class="nc-icon nc-key-25"></i>
                                   </span>
                                 </div>
-                                  <input type="text" class="form-control" placeholder="Password" >
+                                  <input type="text" class="form-control" (ngModel)="password"
+                                  placeholder="Password" >
                               </div>
-                              <button class="btn btn-danger btn-block btn-round">Login</button>
+                              <button class="btn btn-danger btn-block btn-round" (click)="handleSignin()">
+                                register
+                              </button>
                           </form>
                           <div class="forgot">
                               <a href="#" class="btn btn-link btn-danger">Forgot password?</a>
