@@ -68,3 +68,7 @@ yarn-debug.log*
 
 # Ignore mysql
 /mysql
+
+/backend/tmp
+/backend/log
+*.key
