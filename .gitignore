@@ -72,3 +72,4 @@ yarn-debug.log*
 /backend/tmp
 /backend/log
 *.key
+core
